@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Nkosikhona Mkhwanazi",
+    "id": "22057991",
+    "email": "lunganinkosikhona9@gmail.com",
+    "phone": "123-456-7890",
+    "department": "Support",
+    "position": "Full Stack Developer",
+    "salary": "$99,999.98",
+    "startDate": "2024-01-01",
+    "status": "Active"
+  },
+  {
+    "name": "Lungani Sodilakazi",
+    "id": "22189417",
+    "email": "limstarhshamase@gmail.com",
+    "phone": "987-654-3210",
+    "department": "HR",
+    "position": "Hiring Manager",
+    "salary": "$110,000.87",
+    "startDate": "2023-09-10",
+    "status": "Active"
+  }
+]

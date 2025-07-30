@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#employeeList {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.employee {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Form Styles */
+form {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+form input, form select {
+  flex: 1;
+  padding: 8px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+form button[type="submit"] {
+  background-color: royalblue;
+  color: white;
+}
+
+form button[type="button"] {
+  background-color: #ccc;
+  color: #333;
+}

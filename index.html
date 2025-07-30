@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Employee Management</h1>
+  <button onclick="toggleForm()">+ Add Employee</button>
+
+  <!-- Add Employee Form -->
+  <div id="employeeForm" style="display:none; margin-top: 20px;">
+    <h2>Add New Employee</h2>
+    <form id="addEmployeeForm">
+      <div class="form-row">
+        <input name="name" placeholder="Full Name *" required />
+        <input name="id" placeholder="Employee ID *" required />
+      </div>
+      <div class="form-row">
+        <input name="email" placeholder="Email *" type="email" required />
+        <input name="phone" placeholder="Phone *" required />
+      </div>
+      <div class="form-row">
+        <select name="department" required>
+          <option value="">Select Department</option>
+          <option value="Support">Support</option>
+          <option value="HR">HR</option>
+          <option value="Development">Development</option>
+        </select>
+        <input name="position" placeholder="Position *" required />
+      </div>
+      <div class="form-row">
+        <input name="salary" placeholder="Salary *" required />
+        <input name="startDate" type="date" placeholder="Start Date *" required />
+      </div>
+      <div class="form-row">
+        <select name="status">
+          <option value="Active">Active</option>
+          <option value="Inactive">Inactive</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <button type="button" onclick="toggleForm()">Cancel</button>
+        <button type="submit">Add Employee</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Filters -->
+  <div id="filter">
+    <input type="text" id="search" placeholder="Search employees..." />
+    <select id="departmentFilter">
+      <option>All Departments</option>
+    </select>
+    <select id="statusFilter">
+      <option>All Status</option>
+    </select>
+  </div>
+
+  <!-- Employee List -->
+  <div id="employeeList"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
